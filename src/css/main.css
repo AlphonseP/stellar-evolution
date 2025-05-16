@@ -1,0 +1,81 @@
+/* src/css/main.css - add this at the top to make sure CSS is loading */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050510;  /* Dark blue-black background */
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+#game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#game-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#ui-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#resources {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid rgba(100, 150, 255, 0.4);
+  box-shadow: 0 0 10px rgba(0, 50, 100, 0.3);
+}
+
+#resources p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  color: #aaddff;
+}
+
+#upgrades {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
+
+.notification {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100px);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(100, 200, 255, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.5s ease;
+  border: 1px solid rgba(100, 200, 255, 0.3);
+  text-align: center;
+  max-width: 80%;
+}
+
+.notification.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
