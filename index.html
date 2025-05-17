@@ -17,12 +17,27 @@
         </div>
         <div id="controls-panel">
             <div id="evolution-status">Status: Cosmic Dust</div>
+            <!-- Add this new section for testing star types -->
+            <div id="debug-controls">
+                <select id="star-type-select">
+                    <option value="cosmic_dust">Cosmic Dust</option>
+                    <option value="protostar">Protostar</option>
+                    <option value="red_dwarf">Red Dwarf</option>
+                    <option value="yellow_star">Yellow Star</option>
+                    <option value="blue_giant">Blue Giant</option>
+                    <option value="supernova">Supernova</option>
+                    <option value="black_hole">Black Hole</option>
+                </select>
+                <button id="set-star-type">Set Star Type</button>
+            </div>
             <button id="save-button">Save Game</button>
+            <button id="reset-button">Reset Game</button>
         </div>
     </div>
 
     <script src="js/resources.js"></script>
     <script src="js/evolution.js"></script>
+    <script src="js/upgrades.js"></script>
     <script src="js/game.js"></script>
     <script src="js/main.js"></script>
 </body>

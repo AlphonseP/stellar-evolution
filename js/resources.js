@@ -8,16 +8,19 @@ const Resources = {
         this.updateUI();
     },
     
-    addFromClick: function() {
-        // Add resources based on click and current evolution state
-        const hydrogenPerClick = Evolution.getClickHydrogenRate();
-        const heliumPerClick = Evolution.getClickHeliumRate();
-        
-        this.hydrogen += hydrogenPerClick;
-        this.helium += heliumPerClick;
-        
-        this.updateUI();
-    },
+addFromClick: function() {
+    // Add resources based on click and current evolution state
+    const hydrogenPerClick = Evolution.getClickHydrogenRate();
+    const heliumPerClick = Evolution.getClickHeliumRate();
+    
+    this.hydrogen += hydrogenPerClick;
+    this.helium += heliumPerClick;
+    
+    console.log(`Added from click - H: +${hydrogenPerClick}, He: +${heliumPerClick}`);
+    console.log(`New totals - H: ${this.hydrogen}, He: ${this.helium}`);
+    
+    this.updateUI();
+},
     
     update: function(deltaTime) {
         // Add passive resources based on current evolution state

@@ -1,0 +1,63 @@
+Phase 1: Core Mechanics Foundation
+
+Basic clicking mechanic with initial dust cloud visual
+Simple resource generation (basic elements)
+First evolution stage: protostar formation
+UI framework with resource counters
+Save/load functionality
+
+Phase 2: Star Evolution System
+
+Star evolution paths (red dwarf, yellow star, blue giant)
+Passive resource generation based on star type
+Visual feedback for star evolution stages
+Basic upgrade system for stars
+First death cycle (supernova/black hole) with resource boost
+
+Phase 3: Solar System Layer
+
+Planet creation mechanics
+Planet-specific bonuses and interactions
+Visual representation of solar system
+Resource interaction between planets and stars
+Special celestial events (meteor showers, solar flares)
+
+Phase 4: Cosmic Harmony Mechanic
+
+Rhythm-based clicking system with visual cues
+Resonance generation and effects
+Audio feedback synchronized with cosmic events
+Harmony-based upgrades
+Automation options for rhythm patterns
+
+Phase 5: Galactic Layer
+
+Multiple star system management
+Galaxy formation visualization
+Interactions between star systems
+Galactic-level upgrades and bonuses
+Galaxy evolution paths
+
+Phase 6: Prestige System
+
+"Big Crunch" mechanic implementation
+Permanent bonuses structure
+Reset functionality with progression preservation
+Visual effects for universe rebirth
+Balanced economy for post-prestige gameplay
+
+Phase 7: Universal Layer & Polish
+
+Cosmic constants modification system
+Laws of physics alterations with meaningful effects
+Collections system for cosmic phenomena
+Achievement system
+Performance optimization and final visual polish
+
+Phase 8: Quality of Life & Engagement
+
+Tutorial system implementation
+Cosmic Guardians characters introduction
+Choice-driven cosmic events
+Shareable universe snapshots feature
+"Simplified Mode" for casual players

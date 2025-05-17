@@ -66,3 +66,36 @@ body {
 #save-button:hover {
     background-color: #4060c0;
 }
+
+#debug-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#star-type-select {
+    background-color: #203050;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#set-star-type {
+    background-color: #203050;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#set-star-type:hover {
+    background-color: #304060;
+}
+
+#controls-panel {
+    height: auto;  /* Changed from fixed height */
+    min-height: 60px;
+    padding: 10px 20px;
+}
